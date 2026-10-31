@@ -2,10 +2,7 @@
 #include <memory>
 #include <vector>
 #include "tracer.h"
-
-void print_title(std::string title) {
-    std::cout << "============= " << title << " ======================\n";
-}
+#include "myutils.h"
 
 Tracer g_global("global"); // 静态存储 main 之前构造 main结束 折构
 

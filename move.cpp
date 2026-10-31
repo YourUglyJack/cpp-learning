@@ -4,10 +4,7 @@
 #include <utility>
 #include <vector>
 #include "tracer.h"
-
-void print_title(std::string title) {
-    std::cout << "============= " << title << " ======================\n";
-}
+#include "myutils.h"
 
 class Series
 {

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "tracer.h"
+#include "myutils.h"
 
 //   构造：
 //   1. 成员按声明顺序：a → b → c
@@ -74,10 +75,6 @@ public:
 
 void send(Qty q) {
     std::cout << "   send qty " << q.value() << std::endl;
-}
-
-void print_title(std::string title) {
-    std::cout << "============= " << title << " ======================\n";
 }
 
 int main() {

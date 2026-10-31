@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdexcept>
 #include <string>
+#include "myutils.h"
 
 class Account {
 private:
@@ -46,10 +47,6 @@ struct Quote {
     double bid = 0, ask = 0;
     double mid() const { return 0.5*(bid+ask); }
 };
-
-void print_title(std::string title) {
-    std::cout << "============= " << title << " ======================\n";
-}
 
 int main() {
 
