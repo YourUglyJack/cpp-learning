@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "myutils.h"
+#include "../common/myutils.h"
 
 class Character
 {
